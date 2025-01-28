@@ -28,7 +28,7 @@ const LoginForm = () => {
                 />
             </Inputs>
             <Buttons>
-                <Button onPress={login}>
+                <Button>
                     <ButtonText>Login</ButtonText>
                 </Button>
                 <Button onPress={() => router.push("./signup")}>
